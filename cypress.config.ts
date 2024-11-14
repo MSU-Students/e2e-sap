@@ -23,9 +23,9 @@ async function setupNodeEvents(
 
 export default defineConfig({
   e2e: {
-    baseUrl: "https://mathsolver.microsoft.com/en/algebra-calculator",
+    baseUrl: "https://gonana-o.web.app",
     specPattern: [
-      'cypress/e2e/features/1st.feature'
+      'cypress/e2e/features/auth.feature'
     ],
     setupNodeEvents,
     supportFile: 'cypress/support/*.{js,jsx,ts,tsx}',
